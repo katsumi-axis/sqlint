@@ -1,0 +1,13 @@
+{
+  "issues": [
+    {
+      "rule": "parse-error",
+      "severity": "error",
+      "message": "SQL Parse Error: You have a syntax error in your SQL request near 'FROM WHERE'.",
+      "line": 1,
+      "column": 8
+    }
+  ],
+  "errorCount": 1,
+  "warningCount": 0
+}

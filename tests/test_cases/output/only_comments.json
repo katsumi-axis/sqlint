@@ -1,0 +1,13 @@
+{
+  "issues": [
+    {
+      "rule": "keyword-case",
+      "message": "Keyword "is" should be uppercase "IS"",
+      "line": 1,
+      "column": 10,
+      "severity": "warning"
+    }
+  ],
+  "errorCount": 0,
+  "warningCount": 1
+}

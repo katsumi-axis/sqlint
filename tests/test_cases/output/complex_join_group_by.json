@@ -1,0 +1,14 @@
+{
+  "issues": [
+    {"rule": "keyword-case", "message": "Keyword "select" should be uppercase "SELECT"", "line": 1, "column": 1, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "from" should be uppercase "FROM"", "line": 1, "column": 20, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "join" should be uppercase "JOIN"", "line": 1, "column": 38, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "on" should be uppercase "ON"", "line": 1, "column": 54, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "group" should be uppercase "GROUP"", "line": 1, "column": 78, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "by" should be uppercase "BY"", "line": 1, "column": 84, "severity": "warning"},
+    {"rule": "table-alias", "message": "Table alias "d" should be meaningful and between 2-30 characters", "line": null, "column": null, "severity": "info"},
+    {"rule": "table-alias", "message": "Table alias "e" should be meaningful and between 2-30 characters", "line": null, "column": null, "severity": "info"}
+  ],
+  "errorCount": 0,
+  "warningCount": 6
+}
