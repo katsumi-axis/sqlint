@@ -1,0 +1,26 @@
+{
+  "issues": [
+    {
+      "rule": "keyword-case",
+      "message": "Keyword "select" should be uppercase "SELECT"",
+      "line": 1,
+      "column": 1,
+      "severity": "error"
+    },
+    {
+      "rule": "keyword-case",
+      "message": "Keyword "from" should be uppercase "FROM"",
+      "line": 1,
+      "column": 11,
+      "severity": "error"
+    }
+  ],
+  "errorCount": 2,
+  "warningCount": 0,
+  "config": {
+    "rules": {
+      "no-select-star": false,
+      "keyword-case": ["error"]
+    }
+  }
+}

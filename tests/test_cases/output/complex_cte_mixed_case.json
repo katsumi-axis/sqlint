@@ -1,0 +1,16 @@
+{
+  "issues": [
+    {"rule": "keyword-case", "message": "Keyword "as" should be uppercase "AS"", "line": 1, "column": 16, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "select" should be uppercase "SELECT"", "line": 1, "column": 20, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "from" should be uppercase "FROM"", "line": 1, "column": 52, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "where" should be uppercase "WHERE"", "line": 1, "column": 68, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "select" should be uppercase "SELECT"", "line": 1, "column": 90, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "from" should be uppercase "FROM"", "line": 1, "column": 113, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "join" should be uppercase "JOIN"", "line": 1, "column": 131, "severity": "warning"},
+    {"rule": "keyword-case", "message": "Keyword "on" should be uppercase "ON"", "line": 1, "column": 151, "severity": "warning"},
+    {"rule": "table-alias", "message": "Table alias "e" should be meaningful and between 2-30 characters", "line": null, "column": null, "severity": "info"},
+    {"rule": "table-alias", "message": "Table alias "d" should be meaningful and between 2-30 characters", "line": null, "column": null, "severity": "info"}
+  ],
+  "errorCount": 0,
+  "warningCount": 8
+}

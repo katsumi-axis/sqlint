@@ -1,0 +1,13 @@
+{
+  "issues": [
+    {
+      "rule": "no-select-star",
+      "message": "Avoid using SELECT *. Specify column names explicitly.",
+      "line": 1,
+      "column": 8,
+      "severity": "warning"
+    }
+  ],
+  "errorCount": 0,
+  "warningCount": 1
+}

@@ -1,0 +1,55 @@
+{
+  "issues": [
+    {
+      "rule": "keyword-case",
+      "message": "Keyword "select" should be uppercase "SELECT"",
+      "line": 2,
+      "column": 7,
+      "severity": "warning"
+    },
+    {
+      "rule": "no-select-star",
+      "message": "Avoid using SELECT *. Specify column names explicitly.",
+      "line": 2,
+      "column": 14,
+      "severity": "warning"
+    },
+    {
+      "rule": "keyword-case",
+      "message": "Keyword "from" should be uppercase "FROM"",
+      "line": 2,
+      "column": 16,
+      "severity": "warning"
+    },
+    {
+      "rule": "keyword-case",
+      "message": "Keyword "where" should be uppercase "WHERE"",
+      "line": 3,
+      "column": 7,
+      "severity": "warning"
+    },
+    {
+      "rule": "keyword-case",
+      "message": "Keyword "and" should be uppercase "AND"",
+      "line": 4,
+      "column": 7,
+      "severity": "warning"
+    },
+    {
+      "rule": "keyword-case",
+      "message": "Keyword "order" should be uppercase "ORDER"",
+      "line": 5,
+      "column": 7,
+      "severity": "warning"
+    },
+    {
+      "rule": "keyword-case",
+      "message": "Keyword "by" should be uppercase "BY"",
+      "line": 5,
+      "column": 13,
+      "severity": "warning"
+    }
+  ],
+  "errorCount": 0,
+  "warningCount": 7
+}
