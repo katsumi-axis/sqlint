@@ -28,8 +28,9 @@ export const noSelectStar: LintRule = {
                     rule: 'no-select-star',
                     severity: 'warning',
                     message: 'Avoid using SELECT *. Specify column names explicitly.',
-                    line: columnRef._location?.start?.line || selectNode._location?.start?.line,
-                    column: columnRef._location?.start?.column || selectNode._location?.start?.column
+                    // Provide default line/column if location info is missing
+                    line: columnRef._location?.start?.line || selectNode._location?.start?.line || 1,
+                    column: columnRef._location?.start?.column || selectNode._location?.start?.column || 1
                   });
                 }
               }
