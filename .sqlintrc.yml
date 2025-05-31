@@ -1,0 +1,11 @@
+rules:
+  no-select-star: warning
+  keyword-case: warning
+  table-alias: info
+
+# extends:
+#   - recommended
+
+# ignorePatterns:
+#   - "migrations/*.sql"
+#   - "temp/*.sql"
